@@ -656,3 +656,45 @@ footer{
     translateY(0);
 
 }
+/* ===============================
+   HIRE ME BUTTON
+=============================== */
+
+.hire-btn{
+
+    display:inline-block;
+
+    margin-top:25px;
+
+    margin-left:20px;
+
+    padding:16px 40px;
+
+    border-radius:50px;
+
+    text-decoration:none;
+
+    color:white;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    border:2px solid red;
+
+    box-shadow:0 0 20px rgba(255,0,0,.4);
+
+    transition:.4s;
+
+}
+
+
+.hire-btn:hover{
+
+    background:red;
+
+    transform:scale(1.08);
+
+    box-shadow:0 0 35px red;
+
+}
