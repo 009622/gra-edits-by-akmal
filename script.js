@@ -395,25 +395,24 @@ window.addEventListener(
 
 
 
-        gsap.from(
+gsap.fromTo(
+    ".showreel-btn",
 
-            ".showreel-btn",
+    {
+        scale:0.6,
+        opacity:0,
+        y:30
+    },
 
-            {
-
-                duration:1.5,
-
-                scale:0,
-
-                opacity:0,
-
-                delay:1,
-
-                ease:"back.out"
-
-            }
-
-        );
+    {
+        scale:1,
+        opacity:1,
+        y:0,
+        duration:1.2,
+        delay:1,
+        ease:"back.out(1.7)"
+    }
+);
 
 
 
